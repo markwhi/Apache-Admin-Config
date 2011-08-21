@@ -32,27 +32,22 @@ AUTHOR
     Olivier Poitrey <rs@rhapsodyk.net>
 
 AVAILABILITY
-    The official FTP location is:
+    Available on CPAN at:
 
-    ftp://ftp.rhapsodyk.net/pub/devel/perl/Apache-Admin-Config-current.tar.g
-    z
+    http://search.cpan.org/~rsoliv/Apache-Admin-Config/
 
-    Also available on CPAN.
+    Available on GitHub at:
 
-    anonymous CVS repository:
+    https://github.com/markwhi/Apache-Admin-Config
 
-    CVS_RSH=ssh cvs -d anonymous@cvs.rhapsodyk.net:/devel co
-    Apache-Admin-Config
+    Homepage:
 
-    (supply an empty string as password)
-
-    CVS repository on the web:
-
-    http://www.rhapsodyk.net/cgi-bin/cvsweb/Apache-Admin-Config/
+    http://rs.rhapsodyk.net/devel/apache-admin-config/
 
 BUGS
-    Please send bug-reports to aac@list.rhapsodyk.net. You can subscribe to
-    the list by sending an empty mail to aac-subscribe@list.rhapsodyk.net.
+    Please report bugs using the CPAN RT tracker:
+
+    https://rt.cpan.org/Dist/Display.html?Name=Apache-Admin-Config
 
 LICENCE
     This library is free software; you can redistribute it and/or modify it
