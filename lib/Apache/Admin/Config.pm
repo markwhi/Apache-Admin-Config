@@ -4,7 +4,7 @@ use 5.005;
 use strict;
 use FileHandle;
 
-$Apache::Admin::Config::VERSION = '0.94';
+$Apache::Admin::Config::VERSION = '0.95';
 $Apache::Admin::Config::DEBUG   = 0;
 
 =pod
@@ -1239,7 +1239,7 @@ sub to_string
             carp "Use of uninitialized value in string eq";
         }
         local $^W;
-        return($other ne $self->{value});
+        return($other eq $self->{value});
     }
     elsif($meth eq 'ne')
     {
@@ -1257,7 +1257,7 @@ sub to_string
             carp "Use of uninitialized value in numeric eq (==)";
         }
         local $^W;
-        return($other != $self->{value});
+        return($other == $self->{value});
     }
     elsif($meth eq '!=')
     {

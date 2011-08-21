@@ -1,3 +1,12 @@
+2011-08-20 Mark Whittington <markwhi@cpan.org>
+
+  * Release 0.95
+
+	* Fixed bug 40155 (https://rt.cpan.org/Ticket/Display.html?id=40155)
+	  - t/value.t now passes all tests
+
+	* Updated version in README from 0.93 to 0.95
+
 2006-04-11 Daniel Muey <dmuey@cpan.org>
 
 	* Release 0.93
